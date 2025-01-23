@@ -16,13 +16,33 @@
             margin: 0 auto;
         }
 
-        h1 {
+        h1, h2 {
             color: #333;
+        }
+
+        h2 {
+            margin-top: 40px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
         }
 
         p {
             line-height: 1.6;
             color: #666;
+        }
+
+        .project-card {
+            background: #f5f5f5;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .contact-info {
+            background: #e9e9e9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -30,6 +50,26 @@
     <div class="container">
         <h1>Welcome to My Page</h1>
         <p>This is a simple webpage created with Claude's assistance.</p>
+
+        <h2>About Us</h2>
+        <p>We are a passionate team dedicated to creating innovative solutions for web development. Our mission is to build beautiful, functional, and user-friendly websites that make a difference.</p>
+
+        <h2>Project Highlights</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>A responsive e-commerce platform built with modern web technologies.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>Custom content management system for a leading news organization.</p>
+        </div>
+
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p>Email: contact@example.com</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Address: 123 Web Dev Street, Digital City, 12345</p>
+        </div>
     </div>
 </body>
 </html>
